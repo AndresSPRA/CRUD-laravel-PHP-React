@@ -9,3 +9,4 @@ Route::get('/', function () {
 Route::get('/Test/{info}', function ($info) {
     return "Esto es un test y esta es la info {$info}";
 });
+
