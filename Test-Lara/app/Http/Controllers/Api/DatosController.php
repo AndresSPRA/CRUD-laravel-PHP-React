@@ -91,8 +91,8 @@ class DatosController extends Controller
             $usuario = User::findOrFail($id);
 
             // Actualizar campos si vienen en la request
-            if ($request->has('nombre')) {
-                $usuario->name = $request->input('nombre');
+            if ($request->has('name')) {
+                $usuario->name = $request->input('name');
             }
 
             if ($request->has('email')) {
