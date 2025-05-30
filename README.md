@@ -93,12 +93,6 @@ resources/
 
 ---
 
-## 🔐 Autenticación
-
-> 🔧 *Aún no implementada, pero se recomienda Laravel Sanctum para proteger las rutas de API.*
-
----
-
 ## ✅ Funcionalidades
 
 - Crear, editar, eliminar y listar usuarios
@@ -123,10 +117,3 @@ npx prettier --write resources/js
 ```
 
 ---
-
-## 🧪 Pendientes sugeridos
-
-- Implementar autenticación con Sanctum
-- Agregar React Router
-- Pruebas unitarias con Jest (frontend)
-- Documentar en Swagger o Postman
